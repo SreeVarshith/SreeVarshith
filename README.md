@@ -16,7 +16,7 @@
 
 I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engineering**, **Distributed Lakehouse Architectures**, and **ML/NLP Engineering**. My core expertise focuses on constructing event-driven ETL/ELT pipelines, managing ACID-compliant storage layers (Delta Lake, Apache Iceberg), and deploying scalable APIs using FastAPI and Docker. 
 
-- 🎓 **B.Tech in Computer Science & Engineering** from **GITAM University** (CGPA: **9.24 / 10.0**, Top 2% Merit Scholar)[cite: 3, 4].
+- 🎓 **B.Tech in Computer Science & Engineering** from **GITAM University** (CGPA: **9.24 / 10.0**, Top 2% Merit Scholar).
 - 📜 **Certified Specialist**: AWS Data Engineer Associate, Databricks Data Engineer Associate, Databricks Generative AI Engineer Associate, and Oracle Certified Professional.
 - 🚀 **Hackathon Runner-Up**: Co-led the team *Holistic-Ninjas* at HackAP Hackathon (a-hub, Andhra University).
 
@@ -45,10 +45,10 @@ I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engin
 | Certification Badge | Authority | Title |
 | :---: | :---: | :--- |
 | ![AWS Data Engineer](https://img.shields.io/badge/AWS-Data_Engineer_Associate-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) | AWS | **AWS Certified Data Engineer – Associate** |
-| ![Databricks Data Engineer](https://img.shields.io/badge/Databricks-Data_Engineer_Associate-FF3621?style=flat-square&logo=databricks&logoColor=white) | Databricks | **Databricks Certified Data Engineer – Associate**[cite: 2, 3] |
-| ![Databricks GenAI](https://img.shields.io/badge/Databricks-GenAI_Engineer_Associate-FF3621?style=flat-square&logo=databricks&logoColor=white) | Databricks | **Databricks Certified Generative AI Engineer – Associate**[cite: 2, 3] |
-| ![Oracle DS](https://img.shields.io/badge/Oracle-Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white) | Oracle | **Oracle Certified Data Science Professional**[cite: 2, 3, 4] |
-| ![Oracle GenAI](https://img.shields.io/badge/Oracle-Generative_AI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white) | Oracle | **Oracle Certified Generative AI Professional**[cite: 2, 3, 4] |
+| ![Databricks Data Engineer](https://img.shields.io/badge/Databricks-Data_Engineer_Associate-FF3621?style=flat-square&logo=databricks&logoColor=white) | Databricks | **Databricks Certified Data Engineer – Associate** |
+| ![Databricks GenAI](https://img.shields.io/badge/Databricks-GenAI_Engineer_Associate-FF3621?style=flat-square&logo=databricks&logoColor=white) | Databricks | **Databricks Certified Generative AI Engineer – Associate** |
+| ![Oracle DS](https://img.shields.io/badge/Oracle-Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white) | Oracle | **Oracle Certified Data Science Professional** |
+| ![Oracle GenAI](https://img.shields.io/badge/Oracle-Generative_AI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white) | Oracle | **Oracle Certified Generative AI Professional** |
 
 </div>
 
@@ -69,18 +69,18 @@ I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engin
 ### 2. Banking Analytics Lakehouse — Apache Iceberg on Amazon S3 Tables
 > **Role**: Data Engineer | **Tech**: Amazon S3 Tables, AWS Glue (PySpark), Apache Iceberg, Amazon Athena[cite: 2, 3]
 
-- Constructed a Medallion Architecture (Bronze/Silver/Gold) processing transactional banking records via **Amazon S3 Tables**[cite: 2, 3].
-- Developed Glue PySpark pipelines joining customer, account, and transaction streams into unified analytics structures[cite: 2, 3].
-- Leveraged Apache Iceberg managed metadata on S3 Table Buckets for transactional consistency and automatic table compaction[cite: 2, 3].
+- Constructed a Medallion Architecture (Bronze/Silver/Gold) processing transactional banking records via **Amazon S3 Tables**.
+- Developed Glue PySpark pipelines joining customer, account, and transaction streams into unified analytics structures.
+- Leveraged Apache Iceberg managed metadata on S3 Table Buckets for transactional consistency and automatic table compaction.
 
 ---
 
 ### 3. Fashion-MNIST Classifier & MLOps Pipeline
-> **Role**: ML / MLOps Engineer | **Tech**: CNN, Transfer Learning (VGG16, ResNet50), FastAPI, Docker, Python[cite: 3, 4]
+> **Role**: ML / MLOps Engineer | **Tech**: CNN, Transfer Learning (VGG16, ResNet50), FastAPI, Docker, Python
 
-- Built custom CNN architectures and transfer learning pipelines using VGG16/ResNet50 models for automated fashion item classification[cite: 3, 4].
-- Served inference predictions through high-throughput REST APIs engineered with FastAPI[cite: 3, 4].
-- Containerized the inference application with Docker for consistent multi-environment cloud deployment[cite: 3, 4].
+- Built custom CNN architectures and transfer learning pipelines using VGG16/ResNet50 models for automated fashion item classification.
+- Served inference predictions through high-throughput REST APIs engineered with FastAPI.
+- Containerized the inference application with Docker for consistent multi-environment cloud deployment.
 
 ---
 
