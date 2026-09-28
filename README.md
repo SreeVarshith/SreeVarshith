@@ -14,11 +14,11 @@
 
 ## 👨‍💻 Executive Summary
 
-I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engineering**, **Distributed Lakehouse Architectures**, and **ML/NLP Engineering**[cite: 2, 3]. My core expertise focuses on constructing event-driven ETL/ELT pipelines, managing ACID-compliant storage layers (Delta Lake, Apache Iceberg), and deploying scalable APIs using FastAPI and Docker[cite: 2, 3]. 
+I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engineering**, **Distributed Lakehouse Architectures**, and **ML/NLP Engineering**. My core expertise focuses on constructing event-driven ETL/ELT pipelines, managing ACID-compliant storage layers (Delta Lake, Apache Iceberg), and deploying scalable APIs using FastAPI and Docker. 
 
 - 🎓 **B.Tech in Computer Science & Engineering** from **GITAM University** (CGPA: **9.24 / 10.0**, Top 2% Merit Scholar)[cite: 3, 4].
-- 📜 **Certified Specialist**: AWS Data Engineer Associate, Databricks Data Engineer Associate, Databricks Generative AI Engineer Associate, and Oracle Certified Professional[cite: 2, 3, 4].
-- 🚀 **Hackathon Runner-Up**: Co-led the team *Holistic-Ninjas* at HackAP Hackathon (a-hub, Andhra University)[cite: 3, 4].
+- 📜 **Certified Specialist**: AWS Data Engineer Associate, Databricks Data Engineer Associate, Databricks Generative AI Engineer Associate, and Oracle Certified Professional.
+- 🚀 **Hackathon Runner-Up**: Co-led the team *Holistic-Ninjas* at HackAP Hackathon (a-hub, Andhra University).
 
 ---
 
@@ -26,11 +26,11 @@ I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engin
 
 | Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Cloud Computing** | AWS (S3, Glue, Lambda, Athena, RDS PostgreSQL, DynamoDB, IAM, CloudWatch)[cite: 2, 3, 4] |
-| **Big Data & Lakehouse** | PySpark, Apache Spark, Delta Lake, Apache Iceberg, Databricks Platform[cite: 2, 3] |
-| **ML / NLP Frameworks** | TensorFlow, Keras, Scikit-learn, OpenCV, NLTK, VADER, RoBERTa, MobileNet, MLflow[cite: 3, 4] |
-| **Backend & MLOps** | Python, FastAPI, Docker, REST APIs, SQL, Oracle SQL[cite: 2, 3, 4] |
-| **Developer Tools & QA** | VS Code, Jupyter Notebook, Git/GitHub, Postman, ADB, Jira[cite: 2, 3, 4] |
+| **Cloud Computing** | AWS (S3, Glue, Lambda, Athena, RDS PostgreSQL, DynamoDB, IAM, CloudWatch) |
+| **Big Data & Lakehouse** | PySpark, Apache Spark, Delta Lake, Apache Iceberg, Databricks Platform |
+| **ML / NLP Frameworks** | TensorFlow, Keras, Scikit-learn, OpenCV, NLTK, VADER, RoBERTa, MobileNet, MLflow |
+| **Backend & MLOps** | Python, FastAPI, Docker, REST APIs, SQL, Oracle SQL |
+| **Developer Tools & QA** | VS Code, Jupyter Notebook, Git/GitHub, Postman, ADB, Jira |
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,aws,postgres,dynamodb,spark,fastapi,docker,git,vscode,linux&perline=5" alt="Tech Stack Icons" />
@@ -44,7 +44,7 @@ I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engin
 
 | Certification Badge | Authority | Title |
 | :---: | :---: | :--- |
-| ![AWS Data Engineer](https://img.shields.io/badge/AWS-Data_Engineer_Associate-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) | AWS | **AWS Certified Data Engineer – Associate**[cite: 2, 3] |
+| ![AWS Data Engineer](https://img.shields.io/badge/AWS-Data_Engineer_Associate-232F3E?style=flat-square&logo=amazon-aws&logoColor=white) | AWS | **AWS Certified Data Engineer – Associate** |
 | ![Databricks Data Engineer](https://img.shields.io/badge/Databricks-Data_Engineer_Associate-FF3621?style=flat-square&logo=databricks&logoColor=white) | Databricks | **Databricks Certified Data Engineer – Associate**[cite: 2, 3] |
 | ![Databricks GenAI](https://img.shields.io/badge/Databricks-GenAI_Engineer_Associate-FF3621?style=flat-square&logo=databricks&logoColor=white) | Databricks | **Databricks Certified Generative AI Engineer – Associate**[cite: 2, 3] |
 | ![Oracle DS](https://img.shields.io/badge/Oracle-Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white) | Oracle | **Oracle Certified Data Science Professional**[cite: 2, 3, 4] |
@@ -59,10 +59,10 @@ I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engin
 ### 1. [Claims 360 — Insurance Data Lakehouse on AWS](https://github.com/SreeVarshith/claims-360-insurance-lakehouse)
 > **Role**: Data Engineer | **Tech**: AWS (S3, Glue, Lambda, Athena, RDS PostgreSQL, DynamoDB), PySpark, Delta Lake[cite: 2, 3]
 
-- Architected an event-driven AWS data lakehouse integrating relational (RDS) and NoSQL (DynamoDB) sources into ACID-compliant Delta Lake tables on S3[cite: 2, 3].
-- Built PySpark ETL jobs in AWS Glue with automatic schema evolution and state deduplication via Window functions (`row_number() == 1`)[cite: 1, 2, 3].
-- Configured AWS Lambda triggers on `s3:ObjectCreated` events to execute distributed ETL runs automatically upon batch landing[cite: 1, 2, 3].
-- Configured Glue Data Catalog metadata tables for serverless SQL querying in Amazon Athena[cite: 1, 2, 3].
+- Architected an event-driven AWS data lakehouse integrating relational (RDS) and NoSQL (DynamoDB) sources into ACID-compliant Delta Lake tables on S3.
+- Built PySpark ETL jobs in AWS Glue with automatic schema evolution and state deduplication via Window functions (`row_number() == 1`).
+- Configured AWS Lambda triggers on `s3:ObjectCreated` events to execute distributed ETL runs automatically upon batch landing.
+- Configured Glue Data Catalog metadata tables for serverless SQL querying in Amazon Athena.
 
 ---
 
@@ -85,18 +85,18 @@ I am an **Associate Engineer at Virtusa** specializing in **AWS Cloud Data Engin
 ---
 
 ### 4. NovaMIND — AI-Driven Mental Health Platform (HackAP Runner-Up)
-> **Role**: Co-Lead AI Developer | **Tech**: Python, MobileNet, fer2013, HTML/CSS[cite: 3, 4]
+> **Role**: Co-Lead AI Developer | **Tech**: Python, MobileNet, fer2013, HTML/CSS.
 
-- Developed a mental health web application prototype providing AI psychoanalysis and real-time emotion detection[cite: 3, 4].
-- Fine-tuned MobileNet models on the `fer2013` dataset to classify facial expressions across multiple emotion categories[cite: 3, 4].
+- Developed a mental health web application prototype providing AI psychoanalysis and real-time emotion detection.
+- Fine-tuned MobileNet models on the `fer2013` dataset to classify facial expressions across multiple emotion categories.
 
 ---
 
 ## 💼 Industry Experience
 
-- **Associate Engineer** @ **Virtusa** *(Current)*: Architecting cloud-native data lakehouses on AWS, building PySpark Glue jobs, and implementing Delta Lake/Apache Iceberg storage formats[cite: 2, 3].
-- **ML/NLP Engineer Intern** @ **Alcovex - InterviewBuddy** *(May 2024 – May 2025)*: Trained ML/NLP models, maintained production servers, tracked experiments using MLflow, and deployed inference APIs with FastAPI/Docker[cite: 4].
-- **AI/ML Intern** @ **Edunet - APSSDC** *(May 2024 – July 2024)*: Built NLP sentiment classification pipelines utilizing TF-IDF vectorization and custom data preprocessing workflows[cite: 4].
+- **Associate Engineer** @ **Virtusa** *(Current)*: Architecting cloud-native data lakehouses on AWS, building PySpark Glue jobs, and implementing Delta Lake/Apache Iceberg storage formats.
+- **ML/NLP Engineer Intern** @ **Alcovex - InterviewBuddy** *(May 2024 – May 2025)*: Trained ML/NLP models, maintained production servers, tracked experiments using MLflow, and deployed inference APIs with FastAPI/Docker.
+- **AI/ML Intern** @ **Edunet - APSSDC** *(May 2024 – July 2024)*: Built NLP sentiment classification pipelines utilizing TF-IDF vectorization and custom data preprocessing workflows.
 
 ---
 
