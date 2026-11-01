@@ -4,11 +4,11 @@
 
 **Associate Engineer @ Virtusa · Cloud Data Engineering · Machine Learning & NLP**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2E86AB&center=true&vCenter=true&width=620&lines=Building+data+pipelines+on+AWS+%26+Databricks;Taking+ML+models+from+notebook+to+production;Exploring+LLMs%2C+RAG+and+agentic+AI" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2E86AB&center=true&vCenter=true&width=620&lines=Building+data+pipelines+on+AWS+%26+Databricks;Taking+ML+models+from+notebook+to+production;Building+RAG+systems+and+measuring+if+they+work" alt="Building data pipelines, taking ML models to production, and building RAG systems" />
 
 <a href="https://www.linkedin.com/in/sree-varshith-satla-b31901253/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:varshithsatla@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<img src="https://img.shields.io/badge/Based_in-Hyderabad,_India-2E86AB?style=for-the-badge" alt="Location">
+<img src="https://img.shields.io/badge/Based_in-Hyderabad,_India-2E86AB?style=for-the-badge" alt="Based in Hyderabad, India">
 
 </div>
 
@@ -25,24 +25,28 @@ I'm an engineer who enjoys the whole path from raw data to a working AI feature.
 
 ---
 
-## 🧰 Tech stack
+## 🌟 Featured project
 
-| Area | Tools |
+### 🛠️ [OpsMind: AI Copilot for IT Incident Resolution](https://github.com/SreeVarshith/opsmind)
+
+When production breaks, the fix is often already written down, but scattered across runbooks, old tickets and postmortems. OpsMind takes an error message and answers with the likely cause and fix steps, linking back to its sources. An optional agent mode then fact-checks each sentence and flags what it can't verify.
+
+`FastAPI` `LangGraph` `Qdrant` `Hybrid search (dense + BM25)` `Docker` `GitHub Actions` `Groq` `Ollama`
+
+I also evaluated it on a benchmark of synthetic tickets, including what didn't work:
+
+| Finding | Result |
 |:--|:--|
-| **Languages** | Python, SQL, Java |
-| **AI & ML** | TensorFlow, Keras, scikit-learn, OpenCV, NLTK, Transformers, MLflow |
-| **Data Engineering** | Apache Spark, PySpark, Databricks, Delta Lake, Apache Iceberg |
-| **Cloud (AWS)** | S3, Glue, Lambda, Athena, RDS, DynamoDB, ECS Fargate, ECR, CloudFront, CloudWatch, IAM |
-| **DevOps & APIs** | Docker, Terraform, CI/CD, FastAPI, Git |
-| **Quality Engineering** | Postman, Selenium, ADB, Jira |
+| Combining meaning and keyword search works best | Right runbook in the top 10 for **91.5%** of tickets, up from 84.0% |
+| An off-the-shelf reranker made search worse | MRR fell from 0.614 to 0.539, so it's off by default |
+| Model size matters most | **40%** correct with a 120B model, **18%** with a local 3B model |
+| Self-checking improves traceability, not accuracy | Cited sentences rose from 47% to 66%; correctness stayed about the same |
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,aws,terraform,docker,fastapi,postgres,git,linux&perline=10" alt="Tech icons" />
-</div>
+📄 [Read the evaluation report](https://github.com/SreeVarshith/opsmind/blob/main/docs/REPORT.md)
 
 ---
 
-## 🚀 Featured projects
+## 🚀 More projects
 
 ### ☁️ [Claims 360: Insurance Claims Lakehouse on AWS](https://github.com/SreeVarshith/claims-360-insurance-lakehouse)
 `AWS Glue (PySpark)` `Lambda` `Delta Lake` `RDS PostgreSQL` `DynamoDB` `Athena`
@@ -54,10 +58,13 @@ Brings policy data from PostgreSQL and claim audit logs from DynamoDB into one D
 
 A Medallion (Bronze → Silver/Gold) lakehouse that joins customers, accounts and transactions into one enriched Iceberg table, with data-quality checks and rule-based fraud flags, validated through Athena SQL.
 
-### 🎫 TicketDesk: Production-Ready Deployment on AWS
+### 🎫 [TicketDesk: Production-Ready Deployment on AWS](https://github.com/SreeVarshith/TicketDesk-POC-AWS-Deployment)
 `Docker` `Terraform` `ECS Fargate` `RDS` `CloudFront` `Lambda` `CI/CD` `CloudWatch`
 
 Team project to deploy a FastAPI ticketing app the way real systems run. It uses a hardened Docker image in ECR, a two-AZ VPC defined entirely in Terraform, a private and encrypted RDS database, and secrets kept in Secrets Manager. File uploads go straight to S3 via presigned URLs and trigger a thumbnail Lambda. A CI/CD pipeline with secret scanning and smoke tests handles releases, and alarms catch failures. The whole stack can be destroyed and rebuilt from zero with one command.
+
+<details>
+<summary><b>Machine learning projects</b></summary>
 
 ### 🔍 Image Forgery Detection with Deep Learning
 `TensorFlow` `Keras` `CNNs` `Error Level Analysis` `U-Net`
@@ -74,6 +81,8 @@ Compares a custom CNN against transfer learning on VGG16 and ResNet50, then serv
 
 Hackathon prototype for AI-assisted wellbeing support, with real-time facial emotion recognition from a live camera feed.
 
+</details>
+
 ---
 
 ## 💼 Experience
@@ -82,6 +91,24 @@ Hackathon prototype for AI-assisted wellbeing support, with real-time facial emo
 |:--|:--|:--|
 | **Associate Engineer, Technology** · Data Analytics & Integration Delivery | Virtusa | Dec 2025 – Present |
 | **ML/NLP Engineer Intern** (part-time) | Alcovex – InterviewBuddy | May 2024 – May 2025 |
+
+---
+
+## 🧰 Tech stack
+
+| Area | Tools |
+|:--|:--|
+| **Languages** | Python, SQL, Java |
+| **LLMs & RAG** | LangGraph, Qdrant, hybrid search, Ollama, Groq |
+| **AI & ML** | TensorFlow, Keras, scikit-learn, OpenCV, NLTK, Transformers, MLflow |
+| **Data Engineering** | Apache Spark, PySpark, Databricks, Delta Lake, Apache Iceberg |
+| **Cloud (AWS)** | S3, Glue, Lambda, Athena, RDS, DynamoDB, ECS Fargate, ECR, CloudFront, CloudWatch, IAM |
+| **DevOps & APIs** | Docker, Terraform, CI/CD, FastAPI, Git |
+| **Quality Engineering** | Postman, Selenium, ADB, Jira |
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,aws,terraform,docker,fastapi,postgres,git,linux&perline=10" alt="Python, TensorFlow, scikit-learn, AWS, Terraform, Docker, FastAPI, PostgreSQL, Git and Linux" />
+</div>
 
 ---
 
@@ -95,15 +122,6 @@ Hackathon prototype for AI-assisted wellbeing support, with real-time facial emo
   <img src="https://img.shields.io/badge/Oracle-Data_Science_Professional-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Data Science Professional">
   <img src="https://img.shields.io/badge/Oracle-Generative_AI_Professional-F80000?style=flat-square&logo=oracle&logoColor=white" alt="Oracle Generative AI Professional">
 </p>
-
----
-
-## 📊 GitHub stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SreeVarshith&show_icons=true&hide_border=true&theme=default&count_private=true" alt="GitHub stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SreeVarshith&layout=compact&hide_border=true&theme=default&hide=html,css" alt="Top languages" height="160" />
-</div>
 
 ---
 
