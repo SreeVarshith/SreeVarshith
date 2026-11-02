@@ -29,9 +29,11 @@ I'm an engineer who enjoys the whole path from raw data to a working AI feature.
 
 ### 🛠️ [OpsMind: AI Copilot for IT Incident Resolution](https://github.com/SreeVarshith/opsmind)
 
-When production breaks, the fix is often already written down, but scattered across runbooks, old tickets and postmortems. OpsMind takes an error message and answers with the likely cause and fix steps, linking back to its sources. An optional agent mode then fact-checks each sentence and flags what it can't verify.
+When production breaks, the fix is often already written down, but scattered across runbooks, old tickets and postmortems. OpsMind takes an error message and answers with ranked likely causes and fix steps, linking back to its sources. An optional agent mode shows each step live, then fact-checks every sentence and flags what it can't verify.
 
-`FastAPI` `LangGraph` `Qdrant` `Hybrid search (dense + BM25)` `Docker` `GitHub Actions` `Groq` `Ollama`
+Teams can upload their own documents with per-document access control, ask follow-up questions, rate answers, and track usage and quality on a monitoring page.
+
+`FastAPI` `LangGraph` `Qdrant` `Hybrid search (dense + BM25)` `React` `TypeScript` `Tailwind CSS` `Docker` `GitHub Actions` `Groq` `Ollama`
 
 I also evaluated it on a benchmark of synthetic tickets, including what didn't work:
 
